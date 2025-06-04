@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Imagen no encontrada</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 40px; 
+            background: #f7f7f7;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 { color: #e74c3c; }
+        a { color: #3498db; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Imagen no encontrada</h1>
+        <p>La imagen que buscas no existe en este repositorio.</p>
+        <p>Verifica la URL o <a href="/">volver al inicio</a>.</p>
+        <!-- Opcional: Mostrar la URL fallida -->
+        <script>
+            const path = window.location.pathname;
+            document.write(`<p><small>Ruta solicitada: <code>${path}</code></small></p>`);
+        </script>
+    </div>
+</body>
+</html>
